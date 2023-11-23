@@ -22,6 +22,8 @@ body {
 .post-title {
     color: #354b63;
     margin: 10px 0;
+    font-family: 'DM Serif Display', serif;
+    font-size: 3.0rem;
 }
 
 .post-content {
