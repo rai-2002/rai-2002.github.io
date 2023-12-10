@@ -1,0 +1,60 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling for the header */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin-right: 20px;
+  }
+  
+  .navbar ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Styling for main content */
+  .main-content {
+    padding: 40px 0;
+  }
+  
+  .intro-section {
+    text-align: center;
+  }
+  
+  .intro-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
